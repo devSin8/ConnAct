@@ -140,7 +140,7 @@ function App() {
   }
 
   return (
-    <div className="app-shell">
+    <div className={`app-shell${activeChat ? ' app-shell--chat-open' : ''}`}>
       <Sidebar
         user={user}
         users={users}
