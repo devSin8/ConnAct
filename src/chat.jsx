@@ -136,7 +136,7 @@ export default function Chat({ chatId, user, goBack, activeUser }) {
           })
         ) : (
           <div className="chat-empty-messages">
-            Messages will appear here as soon as the current thread receives them.
+            Messages will appear here.
           </div>
         )}
       </div>
